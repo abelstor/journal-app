@@ -53,3 +53,18 @@
   justify-content: center;
   padding: 5px;
 }
+
+.alert__info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: large;
+  width: 100vw;
+  height: 65px;
+  background-color: $light_grey;
+  color: $dark-grey;
+
+  h4 {
+    margin-top: 20px;
+  }
+}
